@@ -132,7 +132,7 @@ local function tweenTo(cf)
     if not hrp then return end
 
     local dist = (hrp.Position - cf.Position).Magnitude
-    local time = math.clamp(dist / farmSpeed, 0.35, 1.8)
+    local time = math.clamp(dist / farmSpeed, 0.35, 1.😎
 
     if activeTween then
         activeTween:Cancel()
